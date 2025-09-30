@@ -4,17 +4,32 @@
   "description": "This project is a travel website that includes features such as:\r - Accommodation booking\r - Tourist attraction recommendations\r - Restaurant reservations\r - Payment system\r - User login and registration",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite",
+    "build": "vite build",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.2",
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/react": "^16.3.0",
     "@vitejs/plugin-react": "^5.0.4",
+    "axios": "^1.12.2",
+    "jest": "^30.2.0",
+    "jsonwebtoken": "^9.0.2",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.9.3",
+    "redux": "^5.0.1",
+    "stripe": "^18.5.0"
   },
   "devDependencies": {
+    "vercel": "^48.1.6",
     "vite": "^7.1.7"
   }
 }

@@ -1,2 +1,1 @@
-// Entry point for the application
-console.log('Travel Website Application');
+// Legacy entry removed; using src/main.jsx for React 18 root
